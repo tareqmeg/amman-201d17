@@ -11,7 +11,6 @@
 // breed
 
 // TODO: dynamically generate kitten objects using form data
-
 'use strict';
 
 const frankie = {
@@ -90,6 +89,7 @@ const jumper = {
     const pElement = document.createElement('p');
     articleElement.appendChild(pElement);
     pElement.textContent = `${this.name} is a ${this.breed}, and ${this.age} months old.`;
+    '' + this.name + ' asd'
 
     const ulElement = document.createElement('ul');
     articleElement.appendChild(ulElement);
@@ -113,13 +113,14 @@ console.log(frankie.name);
 console.log(frankie.age);
 console.log(frankie);
 
-frankie.render();
-jumper.render();
+// frankie.render();
+// jumper.render();
 // console.log(this);
 
 // Helper function
 function generateRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
+  // Math.ceil
 }
 
 console.log(generateRandomNumber(3, 12));

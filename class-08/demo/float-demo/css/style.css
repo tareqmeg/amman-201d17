@@ -1,0 +1,39 @@
+/*
+  Created by: Waleed A. Afifi
+  Email: waleed-afifi@windowslive.com
+  GitHub: https://github.com/waleedafifi90
+  LinkedIn: https://www.linkedin.com/in/walafifi/
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  height: 100px;
+}
+
+main p {
+  width: calc(100% / 3);
+  float: left;
+  display: block;
+  padding: 10px;
+}
+
+main p:nth-child(1) {
+  background: #aaa;
+}
+
+main p:nth-child(2) {
+  background: #bbb;
+}
+
+main p:nth-child(3) {
+  background: #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}

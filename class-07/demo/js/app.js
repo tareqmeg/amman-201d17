@@ -52,17 +52,19 @@ Cat.prototype.render = function() {
   articleElement.appendChild(pElement);
   pElement.textContent = `${this.name} is a ${this.breed}, and ${this.age} months old.`;
 
-  // <table>
+  //      <table>
   //         <tr>
-  //           <th>Good with other Cat</th>
   //           <th>Good with Kids</th>
   //           <th>Good with Dogs</th>
   //         </tr>
   //         <tr>
-  //           <td>true</td>
   //           <td>false</td>
   //           <td>true</td>
   //         </tr>
+  // <tr>
+  //   <td></td>
+  //   <td></td>
+  // </tr>
   //       </table> 
 
   const tableElement = document.createElement('table');

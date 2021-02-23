@@ -49,3 +49,14 @@ th {
   background: #28527a;
   color: #f4d160;
 }
+
+#kittenProfiles {
+  display: flex;
+    flex-wrap: wrap;
+}
+
+#kittenProfiles article {
+  /* float: left;
+  width: calc(100% / 3); */
+  flex-basis: calc(100% / 3);
+}

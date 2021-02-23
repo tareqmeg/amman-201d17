@@ -1,0 +1,83 @@
+/*
+  Created by: Waleed A. Afifi
+  Email: waleed-afifi@windowslive.com
+  GitHub: https://github.com/waleedafifi90
+  LinkedIn: https://www.linkedin.com/in/walafifi/
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 960px;
+  margin: auto;
+  line-height: 1.5;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  padding: 10px 0;
+  text-align: center;
+  background: #2b2b2b;
+}
+
+header nav a {
+  padding: 0 20px;
+  border-right: 1px solid #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+header nav a:first-child {
+  border-left: 1px solid #fff;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.two-col {
+  overflow: auto;
+}
+
+.two-col p {
+  width: calc(100%/2);
+  float: left;
+  padding: 20px;
+  text-align: justify;
+}
+
+.three-col {
+  clear: both;
+  overflow: auto;
+}
+
+.three-col article {
+  width: calc(100% / 3);
+  float: left;
+  padding: 20px;
+}
+
+.three-col article img {
+  width: 100%;
+}
+
+footer {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  background: #222;
+  color: #fff;
+  text-transform: capitalize;
+}
