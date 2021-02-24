@@ -27,6 +27,7 @@ function Cat (name, likes, isGoodWithDogs, isGoodWithKids, isGoodWithOtherCat, b
   this.breed = breed;
   this.image = `./images/${name}.jpeg`;
   this.age = 0;
+  Cat.allCat.push(this);
 };
 
 Cat.prototype.getAge = function(min, max) {
@@ -114,6 +115,8 @@ Cat.prototype.render = function() {
   imgElement.setAttribute('src', this.image);
 };
 
+Cat.allCat = [];
+
 const frankie = new Cat('frankie',['food', 'playing'], true, true, false, 'British');
 const jumper = new Cat('jumper', ['food', 'playing'], true, true, false, 'British');
 const serena = new Cat('serena', ['food', 'playing'], true, true, false, 'British');
@@ -125,8 +128,34 @@ frankie.render();
 jumper.render();
 serena.render();
 
+console.log(Cat.allCats);
+
 // Helper function
 function generateRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
   // Math.ceil
 }
+
+const formElement = document.getElementById('addNewCatForm');
+// console.log(formElement);
+
+formElement.addEventListener('submit', function(event) {
+  event.preventDefault();
+  // console.log(event.target.catName.value);
+
+  const catName = event.target.cat_name.value;
+  const catBreed = event.target.catBreed.value;
+  const catLike = event.target.catLike.value.split(',');
+  const isGoodWithKids = event.target.isGoodWithKids.checked;
+  const isGoodWithOtherCat = event.target.isGoodWithOtherCat.checked;
+  const isGoodWithDogs = event.target.isGoodWithDog.checked;
+
+  const cat = new Cat(catName, catLike, isGoodWithDogs,isGoodWithKids, isGoodWithOtherCat, catBreed);
+
+  formElement.reset();
+
+  cat.getAge(3, 12);
+  cat.render();
+
+  console.log(Cat.allCat);
+});

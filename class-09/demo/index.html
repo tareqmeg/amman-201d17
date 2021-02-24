@@ -13,6 +13,31 @@
   </header>
   <main>
     <h2>Kittens Available for Adoption:</h2>
+    <form id="addNewCatForm">
+      <fieldset>
+        <legend>Add new Cat</legend>
+        <label for="catName">Cat Name</label>
+        <input type="text" id="catName" name="cat_name">
+
+        <label for="catBreed">Cat Breed</label>
+        <input type="text" id="catBreed" name="cat_breed">
+
+        <label for="catLike">Cat Likes</label>
+        <input type="text" id="catLike" name="cat_like">
+
+        <label for="isGoodWithKids">Is good with kids</label>
+        <input type="checkbox" id="isGoodWithKids" name="cat_kids">
+
+        <label for="isGoodWithOtherCat">Is good with other cat</label>
+        <input type="checkbox" id="isGoodWithOtherCat" name="cat_cat">
+
+        <label for="isGoodWithDog">Is good with Dogs</label>
+        <input type="checkbox" id="isGoodWithDog" name="cat_dog">
+
+        <button type="submit">Save</button>
+      </fieldset>
+    </form>
+
     <div id="kittenProfiles">
 
       <!-- generate this from js: -->
