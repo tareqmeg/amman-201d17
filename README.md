@@ -19,7 +19,7 @@ Lab-time code assignments follow each class time. You can find these assignments
 
 Instructions for completing and submitting the assignments can be found in the README files of the appropriate subdirectories.
 
-Assignments are submitted using a professional-grade git-flow. If you haven't done so already, it's time to get comfortable with the core git commands. Don't worry, we'll give you step by step help as needed.
+Assignments are submitted using a professional-grade git-flow. If you havent done so already, it's time to get comfortable with the core git commands. Don't worry, we'll give you step by step help as needed.
 
 ## Index of Cheatsheets and Resources
 
