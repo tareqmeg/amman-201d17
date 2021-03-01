@@ -21,7 +21,7 @@ const rightImage = document.getElementById( 'rightImage' );
 
 let leftGoatIndex = 0;
 let rightGoatIndex = 0;
-const clickCounter = 5;
+const clickCounter = 15;
 
 function Goat( name ) {
   this.name = name;
