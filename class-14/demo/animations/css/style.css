@@ -1,0 +1,75 @@
+* {
+  font-family: sans-serif;
+}
+
+/*TODO: actually do styling and make images side-by-side*/
+
+img {
+  max-width: 40%;
+}
+
+#chart {
+  width: 400;
+  height: 400;
+}
+
+/*transform distorts elements from their original size/shape/position. 'transform' is the property name; it can have different values, like rotate, scale, skew, and translate (like relative positioning, translate moves it to a new place, relative to its old one)*/
+/* 
+img:first-child:hover {
+  transform: rotate(30deg);
+}
+
+img:last-child:hover {
+  transform: rotate(330deg);
+} */
+/*
+img:first-child:hover {
+  transform: scale(1.5);
+}
+
+img:last-child:hover {
+  transform: scale(.5);
+}*/
+
+/*img:first-child:hover {
+  transform: translateX(50px);
+}
+
+img:last-child:hover {
+  transform: translate(-50px, 100px);
+}*/
+
+/*img:first-child:hover {
+  transform: skewX(30deg);
+}
+
+img:last-child:hover {
+  transform: skew(30deg, 30deg);
+}*/
+
+
+/*transitions alter the appearance of an element when the state changes. You use pseudo-selectors to target different states (like :hover :focus :active and :target ).
+there are three major properties to set when you use a transition:
+- transition-property (which property, or properties, you want to transition)
+- transition-duration (how long you the transition to take. this is in seconds, like 2s, or milliseconds, like 350ms)
+- transition-timing-function (how does the rate of change happen over the duration of the transition)*/
+
+  /*animations alter an element for a given number of iterations. For animations, you need to define:
+  - a named animation, using the @keyframes rule, that says where to "start" and where to "end", and (optional) any midpoints in between
+  - which element is using the named animation (animation-name)
+  - how long the animation should run (animation-duration)
+  - how many times to repeat (animation-iteration-count)
+  - how it should be timed (animation-timing-function)*/
+
+  
+
+
+
+
+
+
+
+
+
+
+  /*foo*/
