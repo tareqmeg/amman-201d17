@@ -39,13 +39,13 @@ img:last-child:hover {
   transform: translate(-50px, 100px);
 }*/
 
-/*img:first-child:hover {
+img:first-child:hover {
   transform: skewX(30deg);
 }
 
 img:last-child:hover {
   transform: skew(30deg, 30deg);
-}*/
+}
 
 
 /*transitions alter the appearance of an element when the state changes. You use pseudo-selectors to target different states (like :hover :focus :active and :target ).
